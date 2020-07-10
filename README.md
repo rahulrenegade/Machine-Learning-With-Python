@@ -1,5 +1,5 @@
 # Python Course for getting into Data Science.
-First step to get into Data Science field is learning Python programming language. This repo includes all the files, experiments, Jupyter Notebook files regarding Python.
+To get into Data Science field, the first step is learning Python programming language. This repo includes all the files, experiments, Jupyter Notebook files which were the part of my Python course.
 
 ## Getting Started
 
