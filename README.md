@@ -1,6 +1,5 @@
-# Project Title
-
-One Paragraph of project description goes here
+# Python Course for getting into Data Science (Only Results).
+To get into Data Science field, the first step is learning Python programming language. This repo includes all the files, experiments, datasets, Jupyter Notebook files which were the part of my Python course.
 
 ## Getting Started
 
