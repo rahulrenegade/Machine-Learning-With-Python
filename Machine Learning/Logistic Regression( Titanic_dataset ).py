@@ -1,0 +1,36 @@
+import pandas as pd 
+import matplotlib.pyplot as plt 
+import numpy as np
+import seaborn as sns
+import math 
+
+titanic_data=pd.read_csv("F:/Development/Machine Learning/Titanic/train.csv")
+print(titanic_data.head(10))
+print("the no of passengers in the list is "+str(len(titanic_data.index)))
+sns.countplot(x='Survived',data=titanic_data)
+plt.show()
+sns.countplot(x='Survived',hue='Sex',data=titanic_data)
+plt.show()
+sns.countplot(x='Survived',hue='Pclass',data=titanic_data)
+plt.show()
+titanic_data['Age'].plot.hist()
+plt.show()
+titanic_data['Fare'].plot.hist(bins=20,figsize=(10,5))
+plt.show()
+print(titanic_data.info())
+sns.countplot(x='SibSp',data=titanic_data)
+plt.show()
+sns.countplot(x='Parch',data=titanic_data)
+plt.show()
+print(titanic_data.isnull())
+print(titanic_data.isnull().sum())
+print("the no of null values in age column are",titanic_data['Age'].isnull().sum())
+print("the no of null values in cabin column are",titanic_data['Cabin'].isnull().sum())
+print("the no of null values in embarked column are",titanic_data['Embarked'].isnull().sum())
+sns.heatmap(titanic_data.isnull(),yticklabels=False,cmap="viridis")
+plt.show()
+sns.boxplot(x="Pclass",y="Age",data=titanic_data)
+plt.show()
+titanic_data.drop("Cabin", axis=1,inplace=True)
+print(titanic_data.head(5))
+titanic_data.head(5)
