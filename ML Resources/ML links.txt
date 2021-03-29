@@ -1,0 +1,12 @@
+
+
+https://www.geeksforgeeks.org/supervised-unsupervised-learning/?ref=leftbar-rightbar
+
+https://www.geeksforgeeks.org/regression-classification-supervised-machine-learning/
+
+https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+
+https://www.kdnuggets.com/2020/03/linear-logistic-regression-explained.html
+
+
+
